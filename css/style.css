@@ -28,7 +28,7 @@ p{
 }
 
 div{
-  height: 150px;
+  min-height: 150px;
   padding: 25px 25px 25px 25px;
 }
 
@@ -39,12 +39,14 @@ div{
 #red{
   background-color: #FF0000;
   text-align: right;
+  min-height: 150px;
 
 }
 
 #blue{
   background-color: #0000FF;
   text-align: left;
+  min-height: 150px;
 }
 
 #yellow{
@@ -52,14 +54,23 @@ div{
   text-align: right;
   color: #FFFFFF;
   text-shadow: 5px 5px 2px #C7e2C7;
+  min-height: 150px;
 }
 
 #green{
   background-color: #008000;
   text-align: left;
+  min-height: 150px;
 }
 
 footer{
   text-align: right;
   padding: 0px 10px 10px 0px;
+
+}
+
+footer p{
+  text-align: right;
+  padding: 0px 10px 10px 0px;
+
 }
